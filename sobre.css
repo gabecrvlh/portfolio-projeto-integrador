@@ -1,0 +1,44 @@
+div.containermt-4{
+	padding:10px;
+	margin:auto;
+	margin-top:60px;
+	margin-bottom:60px;
+	height:auto;
+}
+
+div.clearfix img {
+	width:300px;
+	height:300px;
+	
+}
+
+div.clearfix p {
+	font-size:17px;
+	font-weight:400;
+	margin-left:40px;
+}
+
+@media screen and (max-width:768px) {
+	
+div.clearfix img {
+	display:block;
+	margin:auto;
+	
+}
+
+div.clearfix p {
+	margin-top:60px;
+}
+
+}
+
+@media screen and (max-width:480px) { 
+
+div.clearfix img {
+	display:block;
+	margin:auto;
+	width:200px;
+	height:200px;
+}
+
+}
